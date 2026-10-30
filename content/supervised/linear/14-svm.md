@@ -1,7 +1,6 @@
 # SVM: giải thích đơn giản
 
-Nhánh Machine Learning, phần học có giám sát tuyến tính. Bài này giữ cấu trúc 10 mục như các file Lexicon Based, đổi mục 4 từ cách tính điểm sang cách học và cách đọc điểm, vì SVM không có từ điển điểm sẵn.
-
+Nhánh Machine Learning, phần học có giám sát tuyến tính. 
 **Mục lục**
 
 - [1. SVM là gì](#muc-1)
