@@ -1,0 +1,45 @@
+version: 1
+project:
+  title: Các phương pháp phân tích cảm xúc
+  toc:
+  - file: index.md
+  - title: Dictionary-based
+    children:
+    - pattern: content/dictionary-based/*.md
+  - title: Corpus-based
+    children:
+    - pattern: content/corpus-based/*.md
+  - title: Rule-based
+    children:
+    - pattern: content/rule-based/*.md
+  - title: Supervised
+    children:
+    - title: Linear
+      children:
+      - pattern: content/supervised/linear/*.md
+    - title: Probabilistic
+      children:
+      - pattern: content/supervised/probabilistic/*.md
+    - title: Tree
+      children:
+      - pattern: content/supervised/tree/*.md
+    - title: Boosting
+      children:
+      - pattern: content/supervised/boosting/*.md
+    - title: Instance based
+      children:
+      - pattern: content/supervised/instance-based/*.md
+    - title: Ensemble
+      children:
+      - pattern: content/supervised/ensemble/*.md
+  - title: Unsupervised và Topic
+    children:
+    - pattern: content/unsupervised-topic/*.md
+  - title: Ít nhãn
+    children:
+    - pattern: content/low-label/*.md
+  - title: Embedding + bộ phân loại
+    children:
+    - pattern: content/embedding-classifier/*.md
+site:
+  template: book-theme
