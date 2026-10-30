@@ -3,15 +3,17 @@ project:
   title: Các phương pháp phân tích cảm xúc
   toc:
   - file: index.md
-  - title: Dictionary-based
+  - title: Lexicon
     children:
-    - pattern: content/dictionary-based/*.md
-  - title: Corpus-based
-    children:
-    - pattern: content/corpus-based/*.md
-  - title: Rule-based
-    children:
-    - pattern: content/rule-based/*.md
+    - title: Dictionary-based
+      children:
+      - pattern: content/dictionary-based/*.md
+    - title: Corpus-based
+      children:
+      - pattern: content/corpus-based/*.md
+    - title: Rule-based
+      children:
+      - pattern: content/rule-based/*.md
   - title: Supervised
     children:
     - title: Linear
